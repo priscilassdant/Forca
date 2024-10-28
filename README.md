@@ -14,7 +14,7 @@ O **Jogo da Forca** é um jogo clássico onde o jogador deve adivinhar uma palav
 
 Código e instrução:
 
-— instale o Termux no seu celular> abra um terminal (normalmente abre automaticamente assim que você entrar no app)> instale o python com os seguintes códigos:
+> instale o Termux no seu celular> abra um terminal (normalmente abre automaticamente assim que você entrar no app)> instale o python com os seguintes códigos:
 
 
 pkg update && pkg upgrade 
