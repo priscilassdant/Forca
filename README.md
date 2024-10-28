@@ -11,11 +11,8 @@ O **Jogo da Forca** é um jogo clássico onde o jogador deve adivinhar uma palav
 2. Você deve adivinhar as letras da palavra.
 3. Você tem 6 tentativas para adivinhar a palavra correta.
 
-## Instalação
+Código e instrução:
 
-Clone o repositório e execute o jogo:
-
-```bash
 # Clone o repositório
 git clone https://github.com/priscilassdant/Forca.git
 
@@ -23,4 +20,14 @@ git clone https://github.com/priscilassdant/Forca.git
 cd Forca
 
 # Execute o jogo
+python3 forca.py
+
+## Instalação
+
+Clone o repositório e execute o jogo:
+
+```bash
+# cole o código completo
+git clone https://github.com/priscilassdant/Forca.git
+cd Forca
 python3 forca.py
