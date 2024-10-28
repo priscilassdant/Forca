@@ -1,10 +1,11 @@
 # Forca
-Jogo da forca em python para Linux e Termux
+Jogo da forca em python para Linux e Termux.
 
 
 # Jogo da Forca
 
-O **Jogo da Forca** é um jogo clássico onde o jogador deve adivinhar uma palavra letra por letra. O jogador tem um número limitado de tentativas antes de perder o jogo.
+O **Jogo da Forca** é um jogo clássico onde o jogador deve adivinhar uma palavra letra por letra. 
+O jogador tem um número limitado de tentativas antes de perder o jogo.
 
 ## Como Jogar
 
@@ -14,34 +15,35 @@ O **Jogo da Forca** é um jogo clássico onde o jogador deve adivinhar uma palav
 
 Código e instrução:
 
-> instale o Termux no seu celular> abra um terminal (normalmente abre automaticamente assim que você entrar no app)> instale o python com os seguintes códigos:
+> Instale o Termux no seu celular;
+> Abra um terminal (abre automaticamente assim que você entrar no app);
+> Atualize a versão do termux, através do terminal, com o código a seguir (copiar o código, colar e dar enter):
 
+pkg update && pkg upgrade
 
-pkg update && pkg upgrade 
+> Instale o python com os seguintes códigos (copiar o código, colar e dar enter):
+
 pkg install python
 
-
-> verificar a versão do python:
+> Verificar a versão do python (para confirmar se o mesmo foi instalado):
 
 python --version
 
-> agora, cole o código disponível na sessão de "Instalação"> Jogue o Jogo Da Forca.
+> Instale o git com os códigos a seguir (copiar o código, colar e dar enter):
 
-# Clone o repositório
-git clone https://github.com/priscilassdant/Forca.git
+pkg install git
 
-# Navegue até a pasta do projeto
-cd Forca
+> Verificar a versão do git (para confirmar se o mesmo foi instalado):
 
-# Execute o jogo
-python3 forca.py
+git --version
+
+> Agora, cole o código disponível na sessão de "Instalação" e Jogue o Jogo Da Forca.
 
 ## Instalação
 
-Clone o repositório e execute o jogo:
+Clone o repositório (código abaixo) e execute o jogo:
 
 ```bash
-# cole o código completo
 git clone https://github.com/priscilassdant/Forca.git
 cd Forca
 python3 forca.py
