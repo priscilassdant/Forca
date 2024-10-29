@@ -1,5 +1,5 @@
 # Forca
-Jogo da forca em python para Linux e Termux.
+Jogo da forca em python para Termux e Linux.
 
 
 # Jogo da Forca
@@ -13,7 +13,7 @@ O jogador tem um número limitado de tentativas antes de perder o jogo.
 2. Você deve adivinhar as letras da palavra.
 3. Você tem 6 tentativas para adivinhar a palavra correta.
 
-Código e instrução:
+Código e instrução (Termux):
 
 > Instale o Termux no seu celular;
 > Abra um terminal (abre automaticamente assim que você entrar no app);
@@ -32,6 +32,34 @@ python --version
 > Instale o git com os códigos a seguir (copiar o código, colar e dar enter):
 
 pkg install git
+
+> Verificar a versão do git (para confirmar se o mesmo foi instalado):
+
+git --version
+
+Código e instrução (Linux):
+
+> Instale o Linux no seu pc (caso não haja por ser windows, copie o código e execute no prompt de comamando);
+
+wsl --install
+wsl --update
+
+> Após a instalação e a escolha de distribuição, abra como administrador o terminal escolhido durante a instalação;
+> Atualize a versão do linux, através do terminal, com o código a seguir (copiar o código, colar e dar enter):
+
+sudo apt update && sudo apt upgrade
+
+> Instale o python com os seguintes códigos (copiar o código, colar e dar enter):
+
+sudo apt install python3
+
+> Verificar a versão do python (para confirmar se o mesmo foi instalado):
+
+python3 --version
+
+> Instale o git com os códigos a seguir (copiar o código, colar e dar enter):
+
+sudo apt install git
 
 > Verificar a versão do git (para confirmar se o mesmo foi instalado):
 
