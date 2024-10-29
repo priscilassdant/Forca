@@ -1,7 +1,8 @@
 import random
 
 def escolher_palavra():
-    palavras = ["python", "computador", "programacao", "terminal", "linux", "openai"]
+    palavras = ["python", "computador", "programacao", "terminal", "linux", "GitHub", "Git", "código", "algoritmo", "linguagem", "compilador", "interpreter", "framework", "biblioteca", "variável", "função", "classe", "objeto", "estrutura", "dados", "software", "API", "versionamento", "IDE", "front-end", "back-end", "script", "código-fonte"]
+      
     return random.choice(palavras)
 
 def jogo_forca():
